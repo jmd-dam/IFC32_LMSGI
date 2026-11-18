@@ -1,0 +1,60 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "El bar del centro",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "¿Qué sueles pillar en el descanso?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Bocadillo",
+            "Café",
+            "Algo de la máquina",
+            "El menú"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "¿A qué hora te queda mejor bajar?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "A media mañana",
+            "A la hora de comer",
+            "Cuando salgo"
+          ]
+        },
+        {
+          "ordre": 3,
+          "text": "¿Qué pedirías que cambiaran?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Cómo llegas a clase",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "¿En qué vienes casi siempre?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Bus",
+            "Coche",
+            "Tren o metro",
+            "Andando"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "El día que más tarde llegaste, ¿qué pasó?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
